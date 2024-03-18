@@ -16,41 +16,48 @@
 	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </head>
-<style>
 
 <body class="font-[Poppins] h-screen">
-	<header class=" bg-gradient-to-t from-[#caafaf] to-[#81d3e2] min-h-full relative">
-		<nav class="flex justify-between items-center w-[90%] mx-auto pt-4">
-			<div>
-				<img class="w-40 " src="images/Color logo - no background.svg" alt="logo	">
-			</div>
-			<div class="nav-links duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
-			<ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
-				<li class="cursor-pointer hover:text-cyan-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>Home</a></li>
-					<li class="cursor-pointer hover:text-cyan-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>About</a></li>
-					<li class="cursor-pointer hover:text-cyan-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>All Recipes</a></li>
-					</div>
-					<div class="flex items-center gap-6">
-						<button class="md:px-6 md:py-2 rounded-full bg-white text-sm"  aria-placeholder="search for recipe">Search for Recipe
-						</button>
-						<button class="md:px-6 md:py-2 border-slate-900 rounded-full bg-amber-300 text-sm" aria-placeholder="Share Recipe">Share Recipe
-						</button> 
-						<ion-icon onclick="onToggleMenu(this)"   name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
-					</div>
-			</ul>
+	<!--   deleted  ->  bg-gradient-to-t from-[#caafaf] to-[#81d3e2] -->
+	<header class=" container bg-center bg-cover max-w-screen-xl bg-wave bg-no-repeat min-h-svh relative">
+		<!-- <img src="images/bottom-wave.svg absolute" alt=""> -->
+		<div class="bg-center bg-cover bg-wave">
+			<nav class="flex justify-between items-center w-[90%] mx-auto pt-4">
+				<div>
+					<img class="w-56" src="images/Color logo - no background.svg" alt="logo	">
+				</div>
+				<div class="duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+				<ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
+					<li class="cursor-pointer hover:text-cyan-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>Home</a></li>
+						<li class="cursor-pointer hover:text-cyan-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>About</a></li>
+						<li class="cursor-pointer hover:text-cyan-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>All Recipes</a></li>
+						</div>
+						<div class="flex items-center gap-6">
+							<!-- <a href="#" class="md:px-5 md:py-2 border-solid border-black shadow-cyan-700 shadow-sm rounded-full bg-white text-sm font-medium inline-block hover:shadow-blue-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-slate-600 duration-300 hover:border border border-transparent" >Search for recipe &#x1F50D; </a> -->
+
+							<button class="md:px-6 md:py-2 rounded-full bg-white border-black text-sm border-solid shadow-yellow-700 shadow-sm font-medium hover:shadow-yellow-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-slate-600"  aria-placeholder="search for recipe">Search for Recipe
+							</button>
+							<button class="md:px-6 md:py-2 border-slate-900 rounded-full bg-amber-300 text-sm" aria-placeholder="Share Recipe">Share Recipe
+							</button> 
+							<!-- <ion-icon onclick="onToggleMenu(this)"   name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon> -->
+						</div>
+				</ul>
 		</nav>
-		<div class="pl-20 mt-48 max-w-xl">
+		</div>
+		<div class=" pl-20 mt-48 max-w-xl">
 			<h1 class="text-6xl font-bold font-script"> Kain tayo! </h1>
-			<p class=" pt-6 flex justify-center text-slate-900 leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptas nesciunt voluptatum officia minus ullam doloribus sit. Accusamus autem qui vero, totam minus iure, sed maxime explicabo at nisi similique.</p>
+			<p class=" pt-12 flex justify-center text-slate-900 leading-normal">A collection of beloved and home grown Filipino. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorem aliquam assumenda, enim repellat eius esse facere. Quibusdam, vel culpa repellendus quae possimus asperiores dolor fugit totam sequi dicta tempora! </p>
 
 			<div class="mt-5">
-				<a href="#" class="px-6 py-2 rounded-full bg-white text-sm text-slate-400 font-medium inline-block hover:bg-transparent hover:border-amber-400 hover:text-white duration-300 hover:border border border-transparent" >search for recipe <span>&#x1F50D</span></a>
-				<a class="text-sm text-slate-800 hover:text-white duration-300 " href="#">Download App <span class="text-lg inline-block rotate-90">&#10148;</span></a>
+				<a href="#" class="md:px-5 md:py-2 border-solid border-black shadow-cyan-700 shadow-sm rounded-full bg-white text-sm font-medium inline-block hover:shadow-blue-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-slate-600 duration-300 hover:border border border-transparent" >Search for recipe &#x1F50D; </a>
+				<a class="md:px-5 md:py-2 border-solid border-black shadow-cyan-700 shadow-sm rounded-full bg-white text-sm font-medium inline-block hover:shadow-blue-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-slate-600 duration-300 hover:border border border-transparent" href="#">Download App <span class="text-sm inline-block rotate-90">&#10148;</span></a>
 			</div>
-			<div class="flex">
-				<img class="w-1/3 md:w-1/3 md:absolute bottom-48 right-20" src="images/kamayan.jpeg" alt="kamayan">
+			<div class="flex static">
+				<img class="top-3 mx-60 absolute opacity-10" src="images/blob.svg" alt="blob">
+				<img class="w-2/5 md:w-2/5 md:absolute top-[230px] right-16 rounded-tl-3xl rounded-br-3xl shadow-lg shadow-indigo-950" src="images/buffet.jpeg" alt="kamayan">
 			</div>
 		</div>
+	
 	</header>
 
 
@@ -110,15 +117,23 @@
 	<!-- </div>  -->
 
 		<!-- Top Recipe section -->	
-	<div class="container px-28 py-8 @apply object-cover">
-		<h3 class="font-semibold text-lg py-6">Best Recipe for this week</h3>
-		<div class="@apply object-cover flex justify-evenly">
-			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+		                  <!-- removed -> @apply object-cover -->
+	<section>
+	<div class="container px-[70px] pt-36 pb-20 bg-[url('/images/wave-top.svg')]">
+		<div class="flex items-center">
+			<h3 class="font-semibold px-3 text-lg rounded-t-lg py-4  bg-red-100">Best Recipe for this week</h3>
+			<div class="flex flex-row text-sm font-medium cursor-pointer hover:bg-transparent  hover:text-blue-800  hover:fill-blue-800 duration-300 ">
+				<a href="#" class="px-2 rounded-full" ><strong>View <em>more</em> Recipes</strong> </a>
+				<svg class="svg-icon -rotate-90 " width="20" height="20" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M68.3,36.57,50.71,56.63,33.14,36.56a3.12,3.12,0,0,0-4.7,4.1L48.34,63.4a3.08,3.08,0,0,0,4.7,0L73,40.67a3.11,3.11,0,1,0-4.69-4.1Z"></path><polygon points="97.5 49.99 97.5 50 97.5 50 97.5 49.99"></polygon><path d="M50,2.5A47.5,47.5,0,1,0,97.5,50,47.5,47.5,0,0,0,50,2.5ZM91.26,50A41.26,41.26,0,1,1,50,8.74,41.26,41.26,0,0,1,91.26,50Z"></path></svg> 
+				</div>
+		</div>
+		<div class="@apply object-cover flex justify-evenly border-red-100 border-solid border-2 p-8 px-3 rounded-r-lg rounded-bl-lg">
+			<div class="@apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
 				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
 					<img class="rounded-t-lg rounded-b-lg"src="images/pork adobo.jpeg" alt="pork adobo">
 					<img class="pt-0 w-10 h-9 inset-1 absolute" src="images/bookmark.png" alt="bookmark">
 					<div class="pl-2 inset-1 absolute text-white text-xs">1<sup>st</sup></div>
-					<div class="p-4 pl-5 absolute top-44 right-0 text-xs rounded-tl-full bg-white">5/5 ⭐</div>
+					<div class="p-2 pl-5 absolute top-48 right-0 text-xs rounded-tl-full bg-white">5/5 ⭐</div>
 				</div>
 				<div class="flex pt-2">
 					<span class="text-slate-500 text-xs">1k</span>
@@ -133,7 +148,7 @@
 					<img class="rounded-t-lg rounded-b-lg" src="images/pancit-bihon.jpeg" alt="pancit-bihon">
 					<img class="pt-0 w-10 h-9 inset-1 absolute" src="images/bookmark.png" alt="bookmark">
 					<div class="pl-2 inset-1 absolute text-white text-s">2<sup>nd</sup></div>
-					<div class="p-4 pl-5 absolute top-44 right-0 text-xs rounded-tl-full bg-white">5/5 ⭐</div>
+					<div class="p-2 pl-5 absolute top-48 right-0 text-xs rounded-tl-full bg-white">5/5 ⭐</div>
 				</div>
 				<div class="flex pt-2">
 					<span class="text-slate-500 text-xs">1k</span>
@@ -148,7 +163,7 @@
 					<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/pork-dinuguan.jpeg" alt="dinuguan">
 					<img class="w-10 h-9 inset-1 absolute" src="images/bookmark.png" alt="bookmark">
 					<div class="pl-2 inset-1 absolute text-white text-s">3<sup>rd</sup></div>
-					<div class="p-4 pl-5 absolute top-44 right-0 text-xs rounded-tl-full bg-white">5/5 ⭐</div>
+					<div class="p-2 pl-5 absolute top-48 right-0 text-xs rounded-tl-full bg-white">5/5 ⭐</div>
 				</div>
 				<div class="flex pt-2">
 					<span class="text-slate-500 text-xs">1k</span>
@@ -163,7 +178,7 @@
 					<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/sinigang-na-baboy.jpeg" alt="sinigang-na-baboy">
 					<img class="w-10 h-9 inset-1 absolute" src="images/bookmark.png" alt="bookmark">
 					<div class="pl-2 inset-1 absolute text-white text-s">4<sup>th</sup></div>
-					<div class="p-4 pl-5 absolute top-44 right-0 text-xs rounded-tl-full bg-white">5/5 ⭐</div>
+					<div class="p-2 pl-5 absolute top-48 right-0 text-xs rounded-tl-full bg-white">5/5 ⭐</div>
 				</div>
 				<div class="flex pt-2">
 					<span class="text-slate-500 text-xs">1k</span>
@@ -175,11 +190,80 @@
 			</div>
 		</div>	
 	</div>
+</section>
 
-	<div class="container px-28 mb-16">
-		<h3 class="font-semibold text-lg py-8">Popular Recipes</h3>
-		<div class="@apply object-cover flex justify-evenly">
+<section>
+	<div class="container mb-10 p-5 flex justify-center relative">
+		<div class="flex flex-row flex-nowrap align-middle justify-evenly	">
+			<div class="xl:w-56 xl:h-56 relative">
+						<img class="rounded-l-lg w-fit"src="images/profile.jpeg" alt="profile">
+			</div>	
+			<div class=" flex-row align-middle container xl:w-[500px] pr-5 xl:h-56 bg-teal-50 rounded-r-lg relative">
+					<h3 class="font-semibold p-3 ">Hi, i'm Ruchie</h3>
+					<p class="text-sm text-wrap pl-3 ">I love to cook and bake. Since the time i moved to Germany, i miss my family and hometown in Philippines so much. Food brings me comfort for my homesickness and connects me home. For me nothing beats our beloved and homegrown Filipino food. Most of the time i cook Filipino dishes for my family.This website is my personal collection of all the delicious Filipino recipes that i cook for my family. The recipes in this website reflects my life as a Filipino immigrant living in Germany. </p>
+			</div>
+				
+				<!-- <div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Pancit Bihon</h3>
+			</div>
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">	
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+					<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/pork-dinuguan.jpeg" alt="dinuguan">
+					<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+					<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Dinuguan</h3>	
+			</div>
 			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/sinigang-na-baboy.jpeg" alt="sinigang-na-baboy">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png"  alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>		
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Sinigang na Baboy</h3>
+			</div> -->
+		</div>
+	</div>	
+</section>
+
+<section>
+	<div class="container px-[70px] py-5">
+		<div class="flex items-center">
+			<h3 class="font-semibold px-3 text-lg rounded-t-lg py-4  bg-blue-100">Popular Recipe for this week</h3>
+			<div class="flex flex-row text-sm font-medium cursor-pointer hover:bg-transparent  hover:text-blue-800  hover:fill-blue-800 duration-300 ">
+			<a href="#" class="px-2 rounded-full" ><strong>View <em>more</em> Recipes</strong> </a>
+			<svg class="svg-icon -rotate-90 " width="20" height="20" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M68.3,36.57,50.71,56.63,33.14,36.56a3.12,3.12,0,0,0-4.7,4.1L48.34,63.4a3.08,3.08,0,0,0,4.7,0L73,40.67a3.11,3.11,0,1,0-4.69-4.1Z"></path><polygon points="97.5 49.99 97.5 50 97.5 50 97.5 49.99"></polygon><path d="M50,2.5A47.5,47.5,0,1,0,97.5,50,47.5,47.5,0,0,0,50,2.5ZM91.26,50A41.26,41.26,0,1,1,50,8.74,41.26,41.26,0,0,1,91.26,50Z"></path></svg> 
+			</div>
+		</div>
+		<div class="@apply object-cover flex justify-evenly border-blue-100 border-solid border-2 p-8 px-3 rounded-r-lg rounded-bl-lg">
+			<div class="@apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
 				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
 						<img class="rounded-t-lg rounded-b-lg"src="images/pork adobo.jpeg" alt="pork adobo">
 						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
@@ -260,35 +344,421 @@
 				<h3 class="font-semibold mt-3">Sinigang na Baboy</h3>
 			</div>
 		</div>
-		<div class="flex justify-end py-10">
-			<a href="#" class="px-6 py-2 rounded-full bg-white text-sm text-slate-400 font-medium inline-block hover:bg-transparent hover:border-amber-400 hover:text-slate-800 duration-300 hover:border border border-transparent" >More recipes <span>&#x1F50D</span></a> 
-		</div>
 	</div>	
+</section>
 
 	<section>
-	<div class="container px-28 py-8 @apply object-cover bg-slate-300">
-		<h3>What's new on our table?</h3>
+		<div class="container px-[70px] py-28">
+			<div class="flex items-center">
+				<h3 class="font-semibold px-3 text-lg rounded-t-lg py-4  bg-yellow-100">What's new on the table</h3>
+				<div class="flex flex-row text-sm font-medium cursor-pointer hover:bg-transparent  hover:text-blue-800  hover:fill-blue-800 duration-300 ">
+					<a href="#" class="px-2 rounded-full" ><strong>View <em>more</em> Recipes</strong> </a>
+					<svg class="svg-icon -rotate-90 " width="20" height="20" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M68.3,36.57,50.71,56.63,33.14,36.56a3.12,3.12,0,0,0-4.7,4.1L48.34,63.4a3.08,3.08,0,0,0,4.7,0L73,40.67a3.11,3.11,0,1,0-4.69-4.1Z"></path><polygon points="97.5 49.99 97.5 50 97.5 50 97.5 49.99"></polygon><path d="M50,2.5A47.5,47.5,0,1,0,97.5,50,47.5,47.5,0,0,0,50,2.5ZM91.26,50A41.26,41.26,0,1,1,50,8.74,41.26,41.26,0,0,1,91.26,50Z"></path></svg> 
+					</div>
+					</div>
+			<div class="@apply object-cover flex justify-evenly border-yellow-100 border-solid border-2 p-8 px-3 rounded-r-lg rounded-bl-lg">
+				<div class="@apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+					<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+							<img class="rounded-t-lg rounded-b-lg"src="images/pork adobo.jpeg" alt="pork adobo">
+							<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+							<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+						<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+						</div>
+					</div>
+					<!-- <div class="flex pt-2">
+						<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+						<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+					</div> -->
+					<h3 class="font-semibold mt-3">Pork Adobo</h3>
+				</div>	
+				<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+					<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="rounded-t-lg rounded-b-lg" src="images/pancit-bihon.jpeg" alt="pancit-bihon">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+						<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+						</div>
+					</div>
+					<!-- <div class="flex pt-2">
+						<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+						<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+					</div> -->
+					<h3 class="font-semibold mt-3">Pancit Bihon</h3>
+				</div>
+				<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">	
+					<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/pork-dinuguan.jpeg" alt="dinuguan">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+						<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+						</div>
+					</div>
+					<!-- <div class="flex pt-2">
+						<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+						<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+					</div> -->
+					<h3 class="font-semibold mt-3">Dinuguan</h3>	
+				</div>
+				<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+					<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+							<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/sinigang-na-baboy.jpeg" alt="sinigang-na-baboy">
+							<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+							<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+						<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png"  alt="alarm-clock">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+						</div>
+					</div>		
+					<!-- <div class="flex pt-2">
+						<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+						<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+					</div> -->
+					<h3 class="font-semibold mt-3">Sinigang na Baboy</h3>
+				</div>
+			</div>
+		</div>	
+	
+<!-- <section>
+	<div>			
+		<div class="p-4 rounded-t-lg">
+			<h2 class="font-semibold text-lg rounded-t-lg bg-teal-100">Did you know?</h2>
+		</div>
+			<div class="container mb-10 p-5 flex justify-center relative">
+				<div class="flex flex-row flex-nowrap align-middle justify-evenly	">
+					<div class="xl:w-56 xl:h-56 relative">
+								<img class="rounded-l-lg w-fit"src="images/balut.jpeg" alt="balut">
+					</div>	
+					<div class=" flex-row align-middle container xl:w-[500px] pr-5 xl:h-56 bg-teal-50 rounded-r-lg relative">
+							<h3 class="font-semibold p-3 ">Balut</h3>
+							<p class="text-sm text-wrap pl-3 ">Duck embryos are considered a delicacy.
+								The balut is one of the most talked about street food in the Philippines. It's a developing bird embryo that is boiled and best enjoyed with a dash of rock salt or spicy vinegar. Albeit very intimidating at first, eating balut is actually quite pleasant, and once people get over the grossness factor, they usually go back for seconds. </p>
+					</div>
 	</div>
-</section>
-<section class="container px-28 py-40 @apply object-cover bg-amber-200">
-	
-	
-		<h3 class="flex justify-self-center">Filipino Fusion</h3>
-		<p class="flex"> Filipino food with a twist</p>
-		
+</div>
+</div>
 
-	
+<section> -->
+
+	<section>
+		<div class="container px-20 pt-2 pb-10 max-w-5xl ml-32 relative">
+			<img class="bottom-14 right-72 absolute" src="images/blob2.svg" alt="blob">
+			<div class="flex items-center ">
+				<h3 class="font-semibold px-8 text-lg rounded-t-lg py-2 bg-orange-100">Did you know? </h3>
+				<p class="p-2 text-sm font-medium">Random Fun facts about Filipino Food that you may not know about.</p>
+			</div>
+			<div class="container mb-10	 p-10 flex justify-center rounded-r-lg rounded-bl-lg relative border-2 border-solid border-orange-100">
+				<div class="flex flex-row flex-nowrap align-middle justify-evenly	static">
+					<div class="xl:w-56 xl:h-56 static">
+								<img class="absolute rounded-lg shadow-lg z-10 shadow-indigo-950"src="images/balut.jpeg" alt="balut">
+								
+					</div>	
+					<div class=" flex-row align-middle container xl:w-[550px] xl:h-56 rounded-r-lg relative">
+							<h3 class="font-semibold p-4 ">Balut</h3>
+							<p class="text-sm text-wrap pl-4">Duck embryos are considered a delicacy.
+								The balut is one of the most talked about street food in the Philippines. It's a developing bird embryo that is boiled and best enjoyed with a dash of rock salt or spicy vinegar. Albeit very intimidating at first, eating balut is actually quite pleasant, and once people get over the grossness factor, they usually go back for seconds. </p>
+					</div>
+	</div>
+</div>
+			<!-- <div class="@apply object-cover flex justify-evenly border-teal-100 border-solid border-2 p-8 px-3 rounded-r-lg rounded-bl-lg">
+				<div class="@apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+					<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+							<img class="rounded-t-lg rounded-b-lg"src="images/pork adobo.jpeg" alt="pork adobo">
+							<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+							<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+						<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+						</div>
+					</div>
+					<div class="flex pt-2">
+						<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+						<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+					</div>
+					<h3 class="font-semibold mt-3">Pork Adobo</h3>
+				</div>	
+				<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+					<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="rounded-t-lg rounded-b-lg" src="images/pancit-bihon.jpeg" alt="pancit-bihon">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+						<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+						</div>
+					</div>
+					<div class="flex pt-2">
+						<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+						<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+					</div>
+					<h3 class="font-semibold mt-3">Pancit Bihon</h3>
+				</div>
+				<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">	
+					<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/pork-dinuguan.jpeg" alt="dinuguan">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+						<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+						</div>
+					</div>
+					<div class="flex pt-2">
+						<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+						<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+					</div>
+					<h3 class="font-semibold mt-3">Dinuguan</h3>	
+				</div>
+				<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+					<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+							<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/sinigang-na-baboy.jpeg" alt="sinigang-na-baboy">
+							<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+							<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+						<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png"  alt="alarm-clock">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+							<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+							<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+						</div>
+					</div>		
+					<div class="flex pt-2">
+						<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+						<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+					</div>
+					<h3 class="font-semibold mt-3">Sinigang na Baboy</h3>
+				</div>
+			</div> -->
+		</div>
+	</section>	
+
+
+
 </section>
 <section>
-	<div class="container px-28 py-8 @apply object-cover bg-slate-500">
-		<h3>Desert anyone?</h3>
+	<div class="container px-[70px] py-5">
+		<div class="flex items-center">
+			<h3 class="font-semibold px-3 text-lg rounded-t-lg py-4  bg-teal-100">Family favorite</h3>
+			<div class="flex flex-row text-sm font-medium cursor-pointer hover:bg-transparent  hover:text-blue-800  hover:fill-blue-800 duration-300 ">
+				<a href="#" class="px-2 rounded-full" ><strong>View <em>more</em> Recipes</strong> </a>
+				<svg class="svg-icon -rotate-90 " width="20" height="20" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M68.3,36.57,50.71,56.63,33.14,36.56a3.12,3.12,0,0,0-4.7,4.1L48.34,63.4a3.08,3.08,0,0,0,4.7,0L73,40.67a3.11,3.11,0,1,0-4.69-4.1Z"></path><polygon points="97.5 49.99 97.5 50 97.5 50 97.5 49.99"></polygon><path d="M50,2.5A47.5,47.5,0,1,0,97.5,50,47.5,47.5,0,0,0,50,2.5ZM91.26,50A41.26,41.26,0,1,1,50,8.74,41.26,41.26,0,0,1,91.26,50Z"></path></svg> 
+				</div>
+		</div>
+		<div class="@apply object-cover flex justify-evenly border-teal-100 border-solid border-2 p-8 px-3 rounded-r-lg rounded-bl-lg">
+			<div class="@apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="rounded-t-lg rounded-b-lg"src="images/pork adobo.jpeg" alt="pork adobo">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Pork Adobo</h3>
+			</div>	
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+					<img class="rounded-t-lg rounded-b-lg" src="images/pancit-bihon.jpeg" alt="pancit-bihon">
+					<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+					<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Pancit Bihon</h3>
+			</div>
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">	
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+					<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/pork-dinuguan.jpeg" alt="dinuguan">
+					<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+					<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Dinuguan</h3>	
+			</div>
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/sinigang-na-baboy.jpeg" alt="sinigang-na-baboy">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png"  alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>		
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Sinigang na Baboy</h3>
+			</div>
+		</div>
 	</div>
 </section>
+<section>	
+	<div class="container px-[70px] pt-24">
+		<div class="flex items-center">
+			<h3 class="font-semibold px-3 text-lg rounded-t-lg py-4  bg-purple-100">Sweet cravings</h3>
+			<div class="flex flex-row text-sm font-medium cursor-pointer hover:bg-transparent  hover:text-blue-800  hover:fill-blue-800 duration-300 ">
+				<a href="#" class="px-2 rounded-full" ><strong>View <em>more</em> Recipes</strong> </a>
+				<svg class="svg-icon -rotate-90 " width="20" height="20" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M68.3,36.57,50.71,56.63,33.14,36.56a3.12,3.12,0,0,0-4.7,4.1L48.34,63.4a3.08,3.08,0,0,0,4.7,0L73,40.67a3.11,3.11,0,1,0-4.69-4.1Z"></path><polygon points="97.5 49.99 97.5 50 97.5 50 97.5 49.99"></polygon><path d="M50,2.5A47.5,47.5,0,1,0,97.5,50,47.5,47.5,0,0,0,50,2.5ZM91.26,50A41.26,41.26,0,1,1,50,8.74,41.26,41.26,0,0,1,91.26,50Z"></path></svg> 
+				</div> 
+		</div>
+		<div class="@apply object-cover flex justify-evenly border-purple-100 border-solid border-2 p-8 px-3 rounded-r-lg rounded-bl-lg">
+			<div class="@apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="rounded-t-lg rounded-b-lg"src="images/pork adobo.jpeg" alt="pork adobo">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Pork Adobo</h3>
+			</div>	
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+					<img class="rounded-t-lg rounded-b-lg" src="images/pancit-bihon.jpeg" alt="pancit-bihon">
+					<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+					<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Pancit Bihon</h3>
+			</div>
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">	
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+					<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/pork-dinuguan.jpeg" alt="dinuguan">
+					<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+					<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Dinuguan</h3>	
+			</div>
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/sinigang-na-baboy.jpeg" alt="sinigang-na-baboy">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png"  alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>		
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Sinigang na Baboy</h3>
+			</div>
+		</div>
+	</div>
+</section>
+	<footer >
 
-	<footer class="shapedividers_com-7082	object-bottom">
-
-		<div class="h-52 px-28 py-5 bg-gradient-to-t from-[#f1f1f1] to-[#a9dee7] bg-center bg-cover relative">
-			<nav class="md:flex md:items-center md:justify-between">
+		<div class="px-28 pt-20 relative bg-cover bg-[url('/images/wavefooter.svg')]">
+			<nav class="md:flex md:items-center md:justify-between pt-32">
 				<!-- flex items-center -->
 				<img src="/images/Color logo - no background.svg" class="w-40 cursor-pointer" alt="logo">
 				<ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute justify-center">
@@ -296,19 +766,14 @@
 					<li class="cursor-pointer hover:text-cyan-800 font-semibold list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>About</a></li>
 					<li class="cursor-pointer hover:text-cyan-800 font-semibold list-none inline-block px-2"><a href="#" class="no 	underline text-slate-900 mx-2 my-6 md:my-0"></a>Recipe</a></li>
 				</ul>
-				<div class="">
 					<button class="mr-10 px-6 py-2 border-slate-900 rounded-full bg-amber-300" aria-placeholder="Share Recipe">Subscribe &#62;</button> 
 			</nav>
 			<!-- <div class="absolute py-[1px] mt-24 border-solid bg-slate-600"> </div> -->
-			<div class="object-top flex justify-center pt-28 text-[13px] font-semibold"> © 2024 Kain Tayo. All right reserved.</div>
-		</div>	 
+			<div class="flex justify-center mt-36 align-bottom text-[13px] font-semibold"> © 2024 Kain Tayo. All right reserved.
+
+			</div>
+		</div>	 	
 		
-		</div>
-
-
-			
-			
-		</div>
 	</footer>
 
 	<script>

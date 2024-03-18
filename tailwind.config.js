@@ -17,22 +17,18 @@ module.exports = {
       extraLarge: '12rem'
     },
     backgroundImage:{
-      'photo': "url('/images/wave-haikei(1).svg')"
+      'wave': "url('/images/wave1.svg')",
+      'wave2': "url('/images/wavefooter.svg')",
     },
     animation:{
       'animate': '5s ease-in-out infinite', 
     },
-    keyframes: {
-      'animate':{
-        '0%,100%': {
-          borderRadius: '60%, 40%,30%, 70% / 60%, 30%, 70%, 40%',
-          },
-        '50%': {
-            borderRadius: '30%, 60%,70%, 40% / 50%, 60%, 30%, 60%',
-            }
-      } 
+    // keyframes: {  
+    //   slideLeft: {to: 0, from:{
+    //     transform: translateX (100%)
+    //   } 
   }
   },
   plugins: [],
 }
-}
+
