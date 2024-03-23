@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adobo</title>
-	<link rel="icon" type="image/x-icon" href="/images/iPhone.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="/src/output.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	
-	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobo</title>
+    <link rel="icon" type="image/x-icon" href="/images/iPhone.png">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/be0d447ce5.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+  </head>
 
 <body class="font-[Poppins]">
 	<!--   deleted  ->  bg-gradient-to-t from-[#caafaf] to-[#81d3e2] -->
-	<header class="relative max-w-screen-xl ">
+  <header class="relative max-w-screen-xl min-h-screen">
 		<div class="">
       <div> 
-        <img class="absolute"src="images/wave1.svg" alt="wave1">
+        <img class="absolute" src="images/wave1.svg" alt="wave1">
       </div>
-      <div class="absolute flex justify-between items-center w-[90%] ">
+      <div class="absolute flex justify-between items-center w-full">
         <nav class="flex justify-between items-center w-[90%] mx-auto pt-4">
           <div>
             <img class="w-56" src="images/Color logo - no background.svg" alt="logo	">
           </div>
           <div class="duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
             <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
-              <li class="cursor-pointer hover:text-cyan-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>Home</a></li>
-              <li class="cursor-pointer hover:text-cyan-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>About</a></li>
-              <li class="cursor-pointer hover:text-cyan-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>All Recipes</a></li>
+              <li class="cursor-pointer hover:underline hover:text-blue-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>Home</a></li>
+              <li class="cursor-pointer hover:underline hover:text-blue-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>About</a></li>
+              <li class="cursor-pointer hover:underline hover:text-blue-800 font-semibold text-sm list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>All Recipes</a></li>
           
               <div class="flex items-center gap-6">
                 <!-- <a href="#" class="md:px-5 md:py-2 border-solid border-black shadow-cyan-700 shadow-sm rounded-full bg-white text-sm font-medium inline-block hover:shadow-blue-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-slate-600 duration-300 hover:border border border-transparent" >Search for recipe &#x1F50D; </a> -->
-
-                <button class="md:px-6 md:py-2 rounded-full bg-white border-black text-sm border-solid shadow-yellow-700 shadow-sm font-medium hover:shadow-yellow-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-slate-600"  aria-placeholder="search for recipe">Search for Recipe
-                </button>
-                <button class="md:px-6 md:py-2 border-slate-900 rounded-full bg-amber-300 text-sm" aria-placeholder="Share Recipe">Share Recipe
-                </button> 
+							<div class="md:px-6 md:py-2 rounded-full bg-white border-black text-sm border-solid shadow-yellow-700 shadow-sm font-medium hover:shadow-yellow-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-white hover:fill-transparent">
+                <a href="#" >Search for Recipe</a> 
+								<i class="fi fi-br-search pl-1 hover:scale-105"></i>
+							</div>
+                <!-- <button class="md:px-6 md:py-2 border-slate-900 rounded-full bg-amber-300 text-sm">Share Recipe
+                -->
                 <!-- <ion-icon onclick="onToggleMenu(this)"   name="menu" class="text-3xl cursor-pointer md:hidden"></
                   ion-icon> -->
               </div>
@@ -52,49 +54,76 @@
         </nav>
       </div>
 		</div>
+		<div class="h-screen flex justify-start w-auto">
+      <div class="w-[50%] flex-row justify-end ml-20 mt-56 pt-3">
+					<!-- <div class="w-[50%] flex-row justify-end ml-20 mt-56 pt-3"> -->
+						<div class="flex-row w-[85%]">
+					<h1 class="text-6xl font-bold font-script">Adobo</h1>
+          <p class="pt-10 text-slate-900 leading-normal">Adobo is a way of cooking meat (or vegetable) in a brine solution with vinegar, soy sauce, onions, and peppercorn. Dried bay leaves and garlic are usually added for extra flavor and fragrance. Different meat can be used for making this dish. Most common is chicken (Adobong Manok) or Pork (Adobong Baboy). Vegetables like, snake beans, water spinach, and eggplant are also cooked in this manner. So are fishes and squid.</p>
+          <p class="pt-5 font-normal text-sm">Uploaded by: Ruchie</p>
+          <span class="text-sm font-normal">March 8, 2024</span>
+				</div>
+				<div class="pt-10">
+					<!-- <div class="md:px-6 md:py-2 rounded-full bg-white border-black text-sm border-solid shadow-yellow-700 shadow-sm font-medium hover:shadow-yellow-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-white hover:fill-transparent">
+						<a href="#" >Search for Recipe</a> 
+						<i class="fi fi-br-search pl-1 hover:scale-105"></i>
+					</div> -->
+					<!-- <div class="md:px-5 md:py-2 rounded-full bg-white border-black text-sm border-solid shadow-yellow-700 shadow-sm font-medium inline-block hover:shadow-yellow-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-white hover:fill-transparent">
+						<a href="#" >Search for recipe</a>
+						<i class="fi fi-br-search pl-1 hover:scale-105"></i>
+					</div> -->
+						<!-- <a class="md:px-5 md:py-2 border-solid border-black shadow-cyan-700 shadow-sm rounded-full bg-white text-sm font-medium inline-block hover:shadow-blue-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-slate-600 hover:border border border-transparent" href="#">Download App <span class="text-sm inline-block rotate-90">&#10148;</span></a> -->
+				</div>
+				</div>
+			<div class="flex static ">
+				<!-- <img class="w-[58%] right-1 top-10 absolute opacity-15" src="images/magicpattern-blob2.png" alt="blob"> -->
+				<img class="h-36 mt-56 absolute rounded-tl-3xl rounded-br-3xl shadow-lg shadow-indigo-950 border-white border-2 border-solid" style="width:490px; height:400px; margin-left:5px;"  src="images/pork adobo.jpeg" alt="kamayan">
+			</div>
+		</div>
     <!-- <div class="flex align-middle justify-between pt-10 ">
       <div class="w-[30%] h-full h-58 flex justify-end border-red-100 border-solid border-2 px-5 ml-20 rounded-lg"> -->
-		<div class=" ml-20 mt-48">
-      <div class="">
-        <h1 class="text-6xl font-bold font-script">Adobo</h1>
-        <p class="pt-5 w-[50%]">Adobo is a way of cooking meat (or vegetable) in a brine solution with vinegar, soy sauce, onions, and peppercorn. Dried bay leaves and garlic are usually added for extra flavor and fragrance. Different meat can be used for making this dish. Most common is chicken (Adobong Manok) or Pork (Adobong Baboy). Vegetables like, snake beans, water spinach, and eggplant are also cooked in this manner. So are fishes and squid.</p>
+		<!-- <div class="h-screen flex justify-center max-w-screen-xl">
+      <div class="w-[50%] flex-row justify-end ml-20 mt-56 pt-3">
+        <h1 class="text-6xl font-bold font-script pt-4">Adobo</h1>
+        <p class="pt-5">Adobo is a way of cooking meat (or vegetable) in a brine solution with vinegar, soy sauce, onions, and peppercorn. Dried bay leaves and garlic are usually added for extra flavor and fragrance. Different meat can be used for making this dish. Most common is chicken (Adobong Manok) or Pork (Adobong Baboy). Vegetables like, snake beans, water spinach, and eggplant are also cooked in this manner. So are fishes and squid.</p>
         <p class="pt-5 font-normal text-sm">Uploaded by: Ruchie</p>
         <span class="text-sm font-normal">March 8, 2024</span>
       </div>
-        <div class="overflow-hidden static">
-          <img class="w-[62%] right-0 top-7 absolute opacity-20 overflow-hidden" src="images/magicpattern-blob2.png" alt="blob">
-          <img class="w-[40%] h-[60%] absolute top-[200px] right-16 rounded-tl-3xl rounded-br-3xl shadow-lg shadow-indigo-950" src="images/pork adobo.jpeg" alt="adobo">
-        </div>
+      <div class="w-[50%] flex relative">
+        <img class="h-36 mt-56 absolute rounded-tl-3xl rounded-br-3xl shadow-lg shadow-indigo-950" style="width:490px; height:400px; margin-left:40px;"  src="images/pork adobo.jpeg" alt="adobo">
       </div>
+    </div> -->
         <!-- <a href="#" class="md:px-5 md:py-2 border-solid border-black shadow-cyan-700 shadow-sm rounded-full bg-white text-sm font-medium inline-block hover:shadow-blue-900 hover:shadow-md hover:bg-transparent hover:border-amber-400 hover:text-slate-600 duration-300 hover:border border border-transparent" >Save &#x1F50D; </a> -->
 	</header>
   <!-- <div class="flex align-middle justify-between pt-10 ">
     <div class="w-[30%] h-full h-58 flex justify-end border-red-100 border-solid border-2 px-5 ml-20 rounded-lg"> -->
   <section>
-    <div class="flex align-middle justify-between pt-24 bg-[url('/images/wavetop3.svg')]">
-      <div class="w-[30%] flex h-full h-58 ml-20 justify-start leading-loose">
+    <div class="flex align-middle justify-between pt-24 bg-no-repeat bg-[url('/images/wavetop3.svg')]">
+      <div class="w-[36%] inline-block">
+      <div class="flex h-auto h-58 ml-20 p-5 justify-start leading-loose">
         <div class="">
           <div class="flex gap-9">
             <dt>Servings:</dt>
-            <dd>8-10 people</dd>
+            <dd>5</dd>
           </div>
           <div class="flex gap-6">
             <dt>Prep Time:</dt>
-            <dd>40 minutes</dd>
+            <dd>5 minutes</dd>
           </div>
           <div class="flex gap-5">
             <dt>Cook Time:</dt>
-            <dd>50 minutes</dd>
+            <dd>1 hr 15 minutes</dd>
           </div>
           <div class="flex gap-6">
             <dt>Total Time:</dt>
-            <dd>1 hr and 30 minutes</dd>
+            <dd>1 hr 20 minutes</dd>
           </div>
           <div class="flex gap-14">
             <dt>Rating:</dt>
             <dd>
-              <span>5/5</span>
+              <span>5</span>
               <span>⭐⭐⭐⭐⭐</span>
+              <span> from 250 votes</span>
             </dd>
           </div>
           <div class="pt-5">
@@ -112,157 +141,676 @@
           </div>
       	</div>
       </div>
-      <div class="w-[50%] h-full h-58 flex border-red-100 border-solid border-2 px-5 mr-16 rounded-lg">
+
+      <!-- <div class="flex h-auto h-58 ml-20 mt-5 p-5 justify-start leading-loose border-solid border-2 border-red-300">
+          <div>
+            <b>Cooking Tips:</b>
+            <ul class="list-disc">
+              <li>Cut the meat in uniform size to ensure even cooking.</li>
+              <li>Do not overcrowd the pan when browning the pork so they'll get a good sear and not steam. Use a wide pan or cook in batches if necessary. Properly searing the meat before adding the braising liquid is an important step as it gives the dish an appetizing color and incredible depth of flavor.</li>
+              <li>Cook off the strong vinegar flavor by allowing it to boil uncovered and without stirring for a good few minutes before adding the soy sauce and water.</li>
+              <li>If you want to season the dish with more salt than called for in the recipe, I suggest adding it during the last few minutes of cooking to correctly gauge taste. The flavor of the dish will concentrate as the sauce reduces.</li>
+              <li>Potatoes and hard-boiled eggs are a delicious way to extend servings. To help the potatoes from falling apart, pan-fry the cut potatoes first before adding them to the stew.</li>
+            </ul>
+          </div>
+      	</div> -->
+    </div>
+      
+      <div class="w-[50%] h-full h-58 flex border-red-100 border-solid border-2 p-5 mr-16 rounded-lg">
         <div class="">
           
-          <h3 class="py-2 font-bold">Keys to this recipe:</h3> 
+          <h3 class="py-2 font-bold text-lg">Keys to this recipe:</h3> 
           <p><b>Cooking Pork Adobo:</b> Simmer the meat in the soy sauce-vinegar solution with onions, peppercorn and bay leaves, low and slow until it becomes fork tender. Then separate the meat from the sauce and saute the meat in browned garlic. The sauce is, finally, added back and simmered until it is reduced to a caramelized sauce.
           </p>
           <br>
-          <p><b>Ingredient information and alternatives:</b> 
-						<br>
-						<b>Pork</b> - Use any cut of pork that you prefer. I suggest pork belly for best results. However, use leaner parts if you are trying to avoid fats. Pork tenderloin is a healthier choice. This is very tender and contains way less fat than pork belly. You can also use other proteins such as chicken and goat meat using this recipe. 
-						<br>
-						<b>Onion</b> - This help improve the taste of adobo. Use red, yellow, or white onion for this recipe. Make sure to chop it into small pieces. 
-						<br>
-						<b>Dried Bay Leaves</b> - This is an ingredient that you can almost always find most of the time in the spice section of your local supermarket. Believe it or not, but this makes a huge difference when cooking adobo.
-						<br>
-						<b>Whole Peppercorn</b> - You can use whole, ground or crushed pepper corns.
-						<br>
-						<b>Sugar</b> - Brown or white sugar can be used. Omit this if using fruit-based vinegar.
-						<br>
-						<b>Vinegar</b> - White Vinegar is used in this recipe, you can also use fruit-based vinegar like Apple Cider vinegar.
-						<br>
-						<b>Soya Sauce</b> - Gives this dish the salty umami flavor and deep color.
-            <br>
-            <b>Garlic</b> - Gives the Adodo its signature aroma and flavor.
-					</p>
-          <p><b>Cooking Tips:</b> 
-          </p>
+          <div>
+            <b>Ingredient information and alternatives:</b>
+            <ul class="list-disc pt-2">
+              <li><b>Pork</b> - Use any cut of pork that you prefer. I suggest pork belly for best results. However, use leaner parts if you are trying to avoid fats. Pork tenderloin is a healthier choice. This is very tender and contains way less fat than pork belly. You can also use other proteins such as chicken and goat meat using this recipe.</li>
+              <li><b>Onion</b> - This help improve the taste of adobo. Use red, yellow, or white onion for this recipe. Make sure to chop it into small pieces.</li>
+              <li><b>Dried Bay Leaves</b> - This is an ingredient that you can almost always find most of the time in the spice section of your local supermarket. Believe it or not, but this makes a huge difference when cooking adobo.</li>
+              <li><b>Whole Peppercorn</b> - You can use whole, ground or crushed pepper corns.</li>
+              <li><b>Sugar</b> - Brown or white sugar can be used. Omit this if using fruit-based vinegar.</li>
+              <li><b>Vinegar</b> - White Vinegar is used in this recipe, you can also use fruit-based vinegar like Apple Cider vinegar.</li>
+              <li><b>Soya Sauce</b> - Gives this dish the salty umami flavor and deep color.</li>
+              <li><b>Garlic</b> - Gives the Adodo its signature aroma and flavor.</li>
+            </ul>
+          </div>
+          <div class="pt-5">
+            <b>Cooking Tips:</b>
+            <ul class="list-disc pt-2">
+              <li>Cut the meat in uniform size to ensure even cooking.</li>
+              <li>Do not overcrowd the pan when browning the pork so they'll get a good sear and not steam. Use a wide pan or cook in batches if necessary. Properly searing the meat before adding the braising liquid is an important step as it gives the dish an appetizing color and incredible depth of flavor.</li>
+              <li>Cook off the strong vinegar flavor by allowing it to boil uncovered and without stirring for a good few minutes before adding the soy sauce and water.</li>
+              <li>If you want to season the dish with more salt than called for in the recipe, I suggest adding it during the last few minutes of cooking to correctly gauge taste. The flavor of the dish will concentrate as the sauce reduces.</li>
+              <li>Potatoes and hard-boiled eggs are a delicious way to extend servings. To help the potatoes from falling apart, pan-fry the cut potatoes first before adding them to the stew.</li>
+            </ul>
+          </div>
         </div>	
       </div>
     </div>	
   </section>
 <section>
   <div class="flex align-middle justify-around pt-10 border-separate border-spacing-x-5">
-    <div>
       <div class="ml-5 w-[383px] border-2 border-slate-700"></div>
-      </div>
-    
-    <div><div class="mr-1 w-[640px] border-2 border-solid border-slate-700"></div>
-    </div>
+      <div class="mr-1 w-[640px] border-2 border-solid border-slate-700"></div>
   </div>
 </section>
 <section>
     <div class="flex align-middle justify-between pt-10 ">
-      <div class="w-[30%] h-full h-58 flex justify-end border-red-100 border-solid border-2 px-5 ml-20 rounded-lg">
+      <div class="w-[30%] h-full h-58 flex justify-end border-red-100 border-solid border-2 p-5 ml-20 rounded-lg">
         <div class="">
-          <h3 class="mt-3 text-lg font-semibold">Ingredients</h3>
+          <h3 class="text-lg font-semibold">Ingredients</h3>
           <div class="mt-5 leading-loose">
-            <div class="" style="visibility: visible;">
-              <a class="metrictoggle-metric plain" href="#"> Metric</a> 
-                <label class="switch"> 
-                <input type="checkbox">
-                <span class="slider round"></span>
-                </label>
-              <a class="metrictoggle-cups plain" href="#"> Cup Measures</a>
-            </div>
-            <h3>Ingredients</h3>
             <span class="recipe-convert-container">
-              <span class="recipe-convert-lable">Units</span>
-              <button class="" data-unit-type="usc" type="button"> US</button>
-              <button class="" data-unit-type="metric" type="button"> M</button>
+              <!-- <span class="recipe-convert-lable">Units</span> -->
+              <div class="border-2 border-cyan-600 w-[60%] p-0 m-0 rounded-lg">
+              <button class="bg-cyan-600 px-2 m-0 rounded-l-md " data-unit-type="metric" type="button"> Metric</button>
+              <button class="bg-white px-2 m-0 rounded-r-lg " data-unit-type="usc" type="button"> US Customary</button>
+              </div>  
+              
             </span>
-            <ul class="ingredients" >
+            <ul class="ingredients pt-5" >
               <li class="" style="list-style-type:none" > 
-                <input id="checkbox-1" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-1" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>450 g Ziti Noodles</label>
+                <input id="checkbox" type="checkbox" class="checkedBox"/>
+                <label for="checkbox" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>700 grams pork belly - cut into 1x1 or 1x2-inch cubes</label>
               </li>
               <li class="" style="list-style-type:none" > 
                 <input id="checkbox-2" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-2" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>680 g Ground spicy or sweet Italian sausage (or removed from casings)</label>
+                <label for="checkbox-2" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>80 ml dark soy sauce</label>
               </li>
               <li class="" style="list-style-type:none" > 
                 <input id="checkbox-3" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-3" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>4 cloves Minced garlic</label>
+                <label for="checkbox-3" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>130 ml vinegar</label>
               </li>
               <li>
                 <input id="checkbox-4" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-4" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>1 (725g) Crushed tomatoes</label>
+                <label for="checkbox-4" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>¼ liter water</label>
               </li>
               <li>
                 <input id="checkbox-5" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-5" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>1 tsp Salt</label>
+                <label for="checkbox-5" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>10-12 pieces peppercorn</label>
               </li>
               <li>
                 <input id="checkbox-6" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-6" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>1 ½  tsps Sugar</label>
+                <label for="checkbox-6" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>3 pieces bay leaves</label>
               </li>
               <li>
                 <input id="checkbox-7" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-7" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>¼ tsp Crushed red pepper flakes</label>
+                <label for="checkbox-7" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>1 teaspoon brown sugar - optional</label>
               </li>
               <li>
                 <input id="checkbox-8" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-8" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>240 ml Heavy cream</label>
+                <label for="checkbox-8" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>1 big onion - chopped coarsely</label>
               </li>
               <li>
                 <input id="checkbox-9" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-9" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>39 g plus 19 g Grated Pecorino Romano (or Parmigiano Reggiano) cheese, divided</label>
+                <label for="checkbox-9" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>2 tablespoon oil</label>
               </li>
               <li>
                 <input id="checkbox-10" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-10" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>15 g Chopped fresh basil, plus more for serving</label>
+                <label for="checkbox-10" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>14 cloves garlic - minced</label>
               </li>
-              <li>
-                <input id="checkbox-11" type="checkbox" class="checkedBox"/>
-                <label for="checkbox-11" class="checkedLabel"><span class="toggleunits" data-alt=" "> </span>266 g Whole milk mozzarella cheese, shredded (about 2 cups)</label>
-              </li>
-          
           </ul>
           </div>  
         </div>	
       </div>
-      <div class="w-[50%] h-full h-58 flex justify-end border-red-100 border-solid border-2 px-5 mr-16 rounded-lg">
+      <div class="w-[50%] h-full h-58 flex justify-end border-red-100 border-solid border-2 p-5 mr-16 rounded-lg">
         <div class="">
-          <h3 class="text-lg font-semibold mt-3">Instructions</h3>
+          <h3 class="text-lg font-semibold">Instructions</h3>
           <div class="pt-5">
-            <ol>
+            <ul>
               <li><strong>Step 1</strong></li>
-              <li>Bring a large pot of salted water to a boil. Add the Ziti noodles and cook according to the package directions for very al dente, about 7 minutes. (It will continue to cook in the oven so you want to undercook it just a bit.) Drain and add the pasta back to the pot. Set aside.</li>
+              <li>Place pork belly in a pot. Add the soy sauce, vinegar, water, peppercorn, bay leaves, brown sugar, and onions. Bring to boil over high heat.</li>
               <li class="pt-2"><strong>Step 2</strong></li>
-              <li>Preheat the oven to 425°F and set the oven rack in the middle position. </li>
+              <li>Cover the pot with the lid and lower heat to low. Let it cook for about an hour or until the meat is really tender and liquid is reduced to half. Separate meat from the sauce.  </li>
               <li class="pt-2"><strong>Step 3</strong></li>
-              <li class="pt-2">Heat a large sauté pan (preferably nonstick) over medium-high heat. Crumble the sausage into the pan and cook, breaking apart with a wooden spoon, until lightly browned and just cooked through, 5 to 6 minutes. Use a slotted spoon to transfer the cooked sausage to a plate. Drain all but 1 tablespoon of the fat from the pan and set over low heat (if you don't have enough fat in the pan, add a tablespoon of olive oil). Add the minced garlic and cook, stirring constantly with a wooden spoon, until soft but not browned, about 1 minute. Add the can of crushed tomatoes, salt, 1½ teaspoons sugar and ¼ teaspoon red pepper flakes and simmer, uncovered, for 10 minutes. </li>
+              <li class="pt-2">In a skillet, heat oil over medium-low and add the minced garlic. Cook garlic until golden. Remove some of the garlic from oil leaving about ½ in the pan and transfer the rest to a small bowl. </li>
               <li class="pt-2"><strong>Step 4</strong></li>
-              <li class="pt-2">Add the 1 cup cream, 39g of the pecorino Romano, cooked sausage, and 15g basil to the pan; stir until evenly combined. Carefully pour the contents of the sauté pan into the large pot with the pasta and gently stir to combine. Spoon half of the mixture into a 9 x 13-inch baking dish. Sprinkle with half of the shredded mozzarella and half the remaining pecorino Romano (1½ tablespoons). Spoon the remaining pasta mixture on top and sprinkle with the remaining mozzarella and pecorino Romano (1½ tablespoons). Transfer to the oven and bake, uncovered, until the cheese has melted and browned, 15 to 20 minutes. Sprinkle with more basil and serve.</li>
-              <li class="pt-2"><strong>Step 5</strong></li>
-              <li class="pt-2"><strong>Make-Ahead/Freezer-Friendly Instructions:</strong> The dish can be assembled, covered, and refrigerated for up to 2 days in advance, or frozen for up to 3 months. (If frozen, defrost in the refrigerator overnight.) Whether refrigerated or frozen and defrosted, bake, covered tightly with aluminum foil, in a 425°F oven for 25 minutes. Then uncover and bake for another 10 to 15 minutes, until the cheese is lightly browned and the pasta is hot throughout.</li>
-            </ol>
+              <li class="pt-2">Add back the meat to the skillet and cook for a minute or two. Add the sauce again and let it simmer for some minutes until the sauce is reduced some more and becomes thicker.</li>
+              <li class="pt-2"><strong>Step 5</strong> Transfer the Pork Adobo to a serving dish and top it with the browned garlic. Serve with hot steaming rice.</li>
+            </ul>
           </div>
         </div>	
       </div>
     </div>
 </section>
-<footer >
 
-  <div class="px-28 pt-20 relative bg-cover bg-[url('/images/wavefooter.svg')]">
-    <nav class="md:flex md:items-center md:justify-between pt-32">
-      <!-- flex items-center -->
-      <img src="/images/Color logo - no background.svg" class="w-40 cursor-pointer" alt="logo">
-      <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute justify-center">
-        <li class="cursor-pointer hover:text-cyan-800 font-semibold list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>Home</a></li>
-        <li class="cursor-pointer hover:text-cyan-800 font-semibold list-none inline-block px-2"><a href="#" class="no underline text-slate-900 mx-2 my-6 md:my-0"></a>About</a></li>
-        <li class="cursor-pointer hover:text-cyan-800 font-semibold list-none inline-block px-2"><a href="#" class="no 	underline text-slate-900 mx-2 my-6 md:my-0"></a>Recipe</a></li>
-      </ul>
-        <button class="mr-10 px-6 py-2 border-slate-900 rounded-full bg-amber-300" aria-placeholder="Share Recipe">Subscribe &#62;</button> 
-    </nav>
-    <!-- <div class="absolute py-[1px] mt-24 border-solid bg-slate-600"> </div> -->
-    <div class="flex justify-center mt-36 align-bottom text-[13px] font-semibold"> © 2024 Kain Tayo. All right reserved.
+<section>
+  <div class="flex align-middle justify-around pt-10 border-separate border-spacing-x-5">
+      <div class="ml-5 w-[383px] border-2 border-slate-700"></div>
+      <div class="mr-1 w-[640px] border-2 border-solid border-slate-700"></div>
+  </div>
+</section>
+<section>
+    <div class="flex align-middle justify-between pt-10 ">
+      <div class="w-[30%] h-full h-58 flex border-red-100 border-solid border-2 p-5 ml-20 rounded-lg">
+        <div class="">
+          <h2 class="text-lg font-semibold">Ratings</h2>
+          <div class="flex align-middle items-center">
+            <img class="w-16" src="images/favorite.png" alt="favorite">
+            <div class="p-5">
+              <p><b>5 out of 5</b></p>
+              <p class="text-sm text-slate-500">9000 user ratings</p>
+            </div>
+          </div>
+          <h3 class="text-sm font-semibold pt-5">Your Rating</h3>
+          <div class="flex items-center pt-4">
+            <svg class="w-7 h-7 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+            <svg class="w-7 h-7 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+            <svg class="w-7 h-7 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+            <svg class="w-7 h-7 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+            <svg class="w-7 h-7 ms-1 text-gray-300 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+          </div>
+          <div class="pt-10 leading-loose">
+            <div>
+              <p class="text-sm">Did you try this recipe?I'd like to know what you think?</p>
+              <div class="flex pt-2">
+                <img class="w-10 h-10" src="images/instagram.png" alt="">
+                <p class="text-sm pl-2">Snap a photo and tag me on <span class="underline">@mrandmrsroll</span> or use <span class="underline">#mrandmrsroll</span></p>
+              </div>
+            </div>
+          </div>  
+        </div>	
+      </div>
+      <div class="w-[50%] h-full h-58 flex justify-end border-red-100 border-solid border-2 p-5 mr-16 rounded-lg">
+        <div class="container flex justify-center rounded-lg 	relative  ">
+          <div class="flex flex-row flex-nowrap align-middle justify-evenly	static">
+            <div class="">
+              <h3 class="font-semibold">Leave a reply</h3>
+              <p class="pt-2">Your email address will not be published. Required fields are marked <span class="text-red-700">*</span> </p>
+              <p class="pt-5">Recipe Rating</p>
 
+
+                <div class="flex items-center pt-2">
+                  <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                  </svg>
+                  <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                  </svg>
+                  <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                  </svg>
+                  <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                  </svg>
+                  <svg class="w-4 h-4 ms-1 text-gray-300 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                  </svg>
+                </div>
+
+          <!-- <span class="wprm-rating-stars">
+            <fieldset class="wprm-comment-ratings-container" data-original-rating="0" data-current-rating="0">
+              <legend>Recipe Rating</legend>
+              <input aria-label="Don't rate this recipe" name="wprm-comment-rating" value="0" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="margin-left: -21px !important; width: 24px !important; height: 24px !important;" checked="checked"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+            <polygon class="wprm-star-empty" id="wprm-star-empty-0" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          </defs>
+          <use xlink:href="#wprm-star-empty-0" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-empty-0" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-empty-0" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-empty-0" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-0" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 1 out of 5 stars" name="wprm-comment-rating" value="1" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <polygon class="wprm-star-empty" id="wprm-star-empty-1" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          <path class="wprm-star-full" id="wprm-star-full-1" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-1" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-empty-1" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-empty-1" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-empty-1" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-1" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 2 out of 5 stars" name="wprm-comment-rating" value="2" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <polygon class="wprm-star-empty" id="wprm-star-empty-2" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          <path class="wprm-star-full" id="wprm-star-full-2" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-2" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-full-2" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-empty-2" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-empty-2" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-2" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 3 out of 5 stars" name="wprm-comment-rating" value="3" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <polygon class="wprm-star-empty" id="wprm-star-empty-3" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          <path class="wprm-star-full" id="wprm-star-full-3" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-3" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-full-3" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-full-3" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-empty-3" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-3" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 4 out of 5 stars" name="wprm-comment-rating" value="4" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <polygon class="wprm-star-empty" id="wprm-star-empty-4" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          <path class="wprm-star-full" id="wprm-star-full-4" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-4" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-full-4" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-full-4" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-full-4" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-4" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 5 out of 5 stars" name="wprm-comment-rating" value="5" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" id="wprm-comment-rating-20492247" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <path class="wprm-star-full" id="wprm-star-full-5" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-5" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-full-5" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-full-5" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-full-5" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-full-5" x="132" y="4"></use>
+        </svg></span>		</fieldset>
+          </span>
+         -->
+				<!-- </div>	
+					<div class=" flex-row align-middle container max-w-2xl mx-auto rounded-r-lg relative"> -->
+					
+						<form class="max-w-xl pt-5"> 
+							<label for="comment" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Questions or comments.<span class="required">*</span></label>
+              <textarea class="border-2 border-slate-600 border-solid rounded-lg  " autocomplete="new-password" id="comment" name="i52d89fe31" cols="70" rows="8" maxlength="65525" required=""></textarea>
+              <textarea id="a03dae0ba70683ed695177608d625be3" aria-label="hp-comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea>
+              <script data-noptimize="">document.getElementById("comment").setAttribute( "id", "a03dae0ba70683ed695177608d625be3" );document.getElementById("i52d89fe31").setAttribute( "id", "comment" );</script>
+              <label for="name" class="pt-2 block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your name</label>
+							<input type="email" id="email" aria-described by="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="type your name here">
+							<label for="email" class="pt-2 block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your email</label>
+							<input type="email" id="email" aria-described by="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="type your email here">
+
+							<p id="helper-text-explanation" class="mt-2 text-xs text-gray-500 dark:text-gray-400">Don't worry we'll never share your details. Read our <a href="#" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Privacy Policy</a>.</p>
+
+							<button class="mt-4 md:px-6 md:py-2 border-slate-900 rounded-full bg-amber-300 text-sm">Submit
+							</button> 
+						</form>
+
+					</div>
+			</div>
+		</div> 
+
+        </div>	
+      </div>
     </div>
-  </div>	 	
-  
+</section>
+
+<section>	
+	<div class="container px-[70px] pt-24">
+		<div class="flex items-center">
+			<h3 class="font-semibold px-3 text-lg rounded-t-lg py-4  bg-red-100">Readers favorite</h3>
+			<div class="flex flex-row text-sm font-medium cursor-pointer hover:bg-transparent  hover:text-blue-800  hover:fill-blue-800 duration-300 ">
+				<a href="#" class="px-2 rounded-full" ><strong>View <em>more</em> Recipes</strong> </a>
+				<svg class="svg-icon -rotate-90 " width="20" height="20" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M68.3,36.57,50.71,56.63,33.14,36.56a3.12,3.12,0,0,0-4.7,4.1L48.34,63.4a3.08,3.08,0,0,0,4.7,0L73,40.67a3.11,3.11,0,1,0-4.69-4.1Z"></path><polygon points="97.5 49.99 97.5 50 97.5 50 97.5 49.99"></polygon><path d="M50,2.5A47.5,47.5,0,1,0,97.5,50,47.5,47.5,0,0,0,50,2.5ZM91.26,50A41.26,41.26,0,1,1,50,8.74,41.26,41.26,0,0,1,91.26,50Z"></path></svg> 
+				</div> 
+		</div>
+		<div class="@apply object-cover flex justify-evenly border-red-100 border-solid border-2 p-8 px-3 rounded-r-lg rounded-bl-lg">
+			<div class="@apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="rounded-t-lg rounded-b-lg"src="images/pork adobo.jpeg" alt="pork adobo">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Pork Adobo</h3>
+			</div>	
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+					<img class="rounded-t-lg rounded-b-lg" src="images/pancit-bihon.jpeg" alt="pancit-bihon">
+					<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+					<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Pancit Bihon</h3>
+			</div>
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">	
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+					<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/pork-dinuguan.jpeg" alt="dinuguan">
+					<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+					<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png" alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Dinuguan</h3>	
+			</div>
+			<div class=" @apply object-cover w-full xl:w-56 h-full xl:h-58 relative">
+				<div class="transform hover:scale-105 transition duration-300 cursor-pointer">
+						<img class="w-56 h-56 rounded-t-lg rounded-b-lg" src="images/sinigang-na-baboy.jpeg" alt="sinigang-na-baboy">
+						<img class="mt-2 w-5 h-5 top-0 right-10 absolute" src="images/heart.png" alt="heart">
+						<img class="mt-2 w-5 h-5 top-0 right-3 absolute" src="images/bookmark.png" alt="bookmark">
+					<div class="p-3 px-24 mr-4 absolute top-48 right-0 text-xxs rounded-full bg-white opacity-75 flex justify-evenly">	
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[75px] bg-white" src="images/cutlery.png" alt="cutlery">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-3">3-4 Servings</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[114px] bg-white" src="images/alarm-clock (1).png"  alt="alarm-clock">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[94px]">1 hr</span>
+						<img class="mb-1 w-3 h-3 absolute bottom-1 right-[170px] bg-white" src="images/tray.png" alt="tray">
+						<span class="text-[10px] text-slate-800 absolute bottom-1 right-[137px]">Lunch</span>
+					</div>
+				</div>		
+				<div class="flex pt-2">
+					<span class="text-slate-500 text-xs">⭐⭐⭐⭐⭐</span>
+					<span class="pl-2 text-slate-500 text-xs">897 ratings</span>
+				</div>
+				<h3 class="font-semibold mt-3">Sinigang na Baboy</h3>
+			</div>
+		</div>
+	</div>
+</section>	
+
+<section>
+	<div class="container px-20 mx-44 pt-32 pb-10 max-w-4xl relative ">
+		
+	
+		<div class="container p-10 flex justify-center rounded-lg 	relative border-2 border-solid border-orange-100">
+			<div class="flex flex-row flex-nowrap align-middle justify-evenly	static">
+				<div class="max-w-1xl mx-auto">
+					<p>Sign up below to receive updates and recipes delivered right to your inbox. </p>
+				<!-- </div>	
+					<div class=" flex-row align-middle container max-w-2xl mx-auto rounded-r-lg relative"> -->
+					
+						<form class="max-w-sm mx-auto pt-5"> 
+							<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your name</label>
+							<input type="email" id="email" aria-described by="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="type your name here">
+							<label for="email" class="pt-2 block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your email</label>
+							<input type="email" id="email" aria-described by="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="type your email here">
+
+							<p id="helper-text-explanation" class="mt-2 text-xs text-gray-500 dark:text-gray-400">Don't worry we'll never share your details. Read our <a href="#" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Privacy Policy</a>.</p>
+
+							<button class="mt-4 md:px-6 md:py-2 border-slate-900 rounded-full bg-amber-300 text-sm">Subscribe
+							</button> 
+						</form>
+
+					</div>
+			</div>
+		</div>
+	</div>
+</section>		
+
+
+
+<!-- <section>
+  <div class="container px-20 mx-44 pt-32 pb-10 max-w-4xl relative ">
+		
+	
+		<div class="container p-10 flex justify-center rounded-lg 	relative border-2 border-solid border-orange-100">
+			<div class="flex flex-row flex-nowrap align-middle justify-evenly	static">
+				<div class="max-w-1xl mx-auto">
+          <h3 class="font-semibold">Leave a reply</h3>
+					<p class="pt-2">Your email address will not be published. Required fields are marked <span class="text-red-700">*</span> </p>
+          <p class="pt-2">Recipe Rating</p>
+
+
+<div class="flex items-center">
+  <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+  </svg>
+  <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+  </svg>
+  <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+  </svg>
+  <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+  </svg>
+  <svg class="w-4 h-4 ms-1 text-gray-300 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+  </svg>
+</div>
+
+          <!-- <span class="wprm-rating-stars">
+            <fieldset class="wprm-comment-ratings-container" data-original-rating="0" data-current-rating="0">
+              <legend>Recipe Rating</legend>
+              <input aria-label="Don't rate this recipe" name="wprm-comment-rating" value="0" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="margin-left: -21px !important; width: 24px !important; height: 24px !important;" checked="checked"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+            <polygon class="wprm-star-empty" id="wprm-star-empty-0" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          </defs>
+          <use xlink:href="#wprm-star-empty-0" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-empty-0" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-empty-0" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-empty-0" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-0" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 1 out of 5 stars" name="wprm-comment-rating" value="1" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <polygon class="wprm-star-empty" id="wprm-star-empty-1" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          <path class="wprm-star-full" id="wprm-star-full-1" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-1" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-empty-1" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-empty-1" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-empty-1" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-1" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 2 out of 5 stars" name="wprm-comment-rating" value="2" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <polygon class="wprm-star-empty" id="wprm-star-empty-2" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          <path class="wprm-star-full" id="wprm-star-full-2" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-2" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-full-2" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-empty-2" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-empty-2" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-2" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 3 out of 5 stars" name="wprm-comment-rating" value="3" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <polygon class="wprm-star-empty" id="wprm-star-empty-3" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          <path class="wprm-star-full" id="wprm-star-full-3" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-3" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-full-3" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-full-3" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-empty-3" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-3" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 4 out of 5 stars" name="wprm-comment-rating" value="4" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <polygon class="wprm-star-empty" id="wprm-star-empty-4" fill="none" stroke="#00a3b9" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="12,2.6 15,9 21.4,9 16.7,13.9 18.6,21.4 12,17.6 5.4,21.4 7.3,13.9 2.6,9 9,9" stroke-linejoin="miter"></polygon>
+          <path class="wprm-star-full" id="wprm-star-full-4" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-4" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-full-4" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-full-4" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-full-4" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-empty-4" x="132" y="4"></use>
+        </svg></span><br><input aria-label="Rate this recipe 5 out of 5 stars" name="wprm-comment-rating" value="5" type="radio" onclick="WPRecipeMaker.rating.onClick(this)" id="wprm-comment-rating-20492247" style="width: 24px !important; height: 24px !important;"><span aria-hidden="true" style="width: 120px !important; height: 24px !important;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="106.66666666667px" height="16px" viewBox="0 0 160 32">
+          <defs>
+          <path class="wprm-star-full" id="wprm-star-full-5" fill="#00a3b9" d="M12.712,1.942l2.969,6.015l6.638,0.965c0.651,0.095,0.911,0.895,0.44,1.354l-4.804,4.682l1.134,6.612c0.111,0.649-0.57,1.143-1.152,0.837L12,19.286l-5.938,3.122C5.48,22.714,4.799,22.219,4.91,21.57l1.134-6.612l-4.804-4.682c-0.471-0.459-0.211-1.26,0.44-1.354l6.638-0.965l2.969-6.015C11.579,1.352,12.421,1.352,12.712,1.942z"></path>
+          </defs>
+          <use xlink:href="#wprm-star-full-5" x="4" y="4"></use>
+          <use xlink:href="#wprm-star-full-5" x="36" y="4"></use>
+          <use xlink:href="#wprm-star-full-5" x="68" y="4"></use>
+          <use xlink:href="#wprm-star-full-5" x="100" y="4"></use>
+          <use xlink:href="#wprm-star-full-5" x="132" y="4"></use>
+        </svg></span>		</fieldset>
+          </span>
+         -->
+				<!-- </div>	
+					<div class=" flex-row align-middle container max-w-2xl mx-auto rounded-r-lg relative"> -->
+					
+						<!-- <form class="max-w-xl pt-5"> 
+							<label for="comment" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Questions or comments.<span class="required">*</span></label>
+              <textarea class="border-2 border-slate-600 border-solid rounded-lg  " autocomplete="new-password" id="comment" name="i52d89fe31" cols="70" rows="8" maxlength="65525" required=""></textarea>
+              <textarea id="a03dae0ba70683ed695177608d625be3" aria-label="hp-comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea>
+              <script data-noptimize="">document.getElementById("comment").setAttribute( "id", "a03dae0ba70683ed695177608d625be3" );document.getElementById("i52d89fe31").setAttribute( "id", "comment" );</script>
+              <label for="name" class="pt-2 block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your name</label>
+							<input type="email" id="email" aria-described by="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="type your name here">
+							<label for="email" class="pt-2 block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your email</label>
+							<input type="email" id="email" aria-described by="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="type your email here">
+
+							<p id="helper-text-explanation" class="mt-2 text-xs text-gray-500 dark:text-gray-400">Don't worry we'll never share your details. Read our <a href="#" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Privacy Policy</a>.</p>
+
+							<button class="mt-4 md:px-6 md:py-2 border-slate-900 rounded-full bg-amber-300 text-sm">Submit
+							</button> 
+						</form>
+
+					</div>
+			</div>
+		</div>
+	</div>   -->
+<!-- </section> --> 
+<section>
+  <h3 class="mx-20 mt-20 font-semibold text-lg">Comments</h3>
+  <div class="flex align-middle justify-around pt-border-separate border-spacing-x-5">
+      <!-- <div class="ml-5 w-[383px] border-2 border-slate-700"></div> -->
+      <div class="  w-[87%] border-[0.25px] border-solid border-slate-700 opacity-20"></div>
+  </div>
+
+  <ul class="ml-20 pt-10 mr-20">
+    <li>
+      <div class="flex justify-between">
+      <p class="text-sm"><span>Mario</span> says:</p>
+      <p class="text-xs"><span>March 2, 2023</span> at <span>1:30pm</span></p>
+      </div>
+     
+      <span>
+        <div class="flex items-center justify-start   pt-2">
+          <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+          <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+          <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+          <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+          <svg class="w-4 h-4 ms-1 text-yellow-300 dark:text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+        </div>
+      </span>
+      <p class="pt-5 text-sm">My brother and I have been making and eating pork adobo for 40 years. After making this last night, we both agreed it was THE best.</p>
+      <div class="flex justify-end">
+        <button class="mt-4 md:px-6 md:py-2 border-slate-900 rounded-full bg-amber-300 text-sm">Reply
+        </button> 
+      </div>
+      <div class="flex justify-end">
+      <div class="my-6 w-[50%]">
+        <div class="flex justify-between">
+          <p class="text-sm"><span>Ruchie</span> says:</p>
+          <p class="text-xs"><span>March 2, 2023</span> at <span>3:30pm</span></p>
+        </div>
+        <p class="pt-5 text-sm">Thank you! You just made my day!</p>
+      </div>
+    </div>
+        <div class="flex align-middle w-[100%] mt-6 border-[0.25px] border-solid border-slate-700 opacity-20"></div>
+    </li>
+    <li class="pt-10">
+      <div class="flex justify-between">
+      <p class="text-sm"><span>Alice P.</span> says:</p>
+      <p class="text-xs"><span>March 2, 2023</span> at <span>1:30pm</span></p>
+      </div>
+     
+      <span>
+        <div class="flex items-center justify-start   pt-2">
+          <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+          <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+          <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+          <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+          <svg class="w-4 h-4 ms-1 text-slate-300 dark:text-slate-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+          </svg>
+        </div>
+      </span>
+      <p class="pt-5 text-sm">Very good recipe. Definitely worth a try!</p>
+      <div class="flex justify-end">
+        <button class="mt-4 md:px-6 md:py-2 border-slate-900 rounded-full bg-amber-300 text-sm">Reply
+        </button> 
+      </div>
+      
+        <div class="flex align-middle w-[100%] mt-6 border-[0.25px] border-solid border-slate-700 opacity-20"></div>
+    </li>
+  </ul>
+  <div class=" m-20 flex align-middle justify-start">
+    <a class="text-sm font-medium underline  hover:text-blue-800" href="">Show all comments</a>
+  </div>
+</section>
+<div class="flex items-center justify-center mt-20">
+<a class="text-sm font-medium underline hover:text-blue-800" href="#">Back to top</a>
+</div>
+<footer class="relative">
+	<div> 
+		<img class="absolute" src="images/wavefooter2.svg" alt="wave1">
+	</div>
+	<div class="absolute w-full max-w-screen-xl mx-auto  md:pt-8 mt-36">
+			<div class="sm:flex sm:items-center sm:justify-between">
+							<img src="images/Color logo - no background.svg" class="h-10 pl-20" alt="ogo" />
+					<ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 mr-20">
+							<li>
+									<a href="#" class="hover:underline hover:text-blue-800 me-4 md:me-6">Home</a>
+							</li>
+							<li>
+									<a href="#" class="hover:underline hover:text-blue-800 me-4 md:me-6">About</a>
+							</li>
+							<li>
+									<a href="#" class="hover:underline hover:text-blue-800 me-4 md:me-6">All Recipes</a>
+							</li>
+							<li>
+									<a href="#" class="hover:underline hover:text-blue-800 me-4 md:me-6">Contact</a>
+							</li>
+							<li>
+								<a href="#" class="hover:underline hover:text-blue-800">Privacy Policy</a>
+						</li>
+					</ul>
+			</div>
+			<div class="flex justify-center items-center mt-10 gap-10">
+			<div class="flex-row">
+				<i class="px-2 fa-brands fa-square-facebook fa-xl transform hover:scale-110 transition duration-300 cursor-pointer"></i>
+				<i class="px-2 fa-brands fa-square-instagram  fa-xl transform hover:scale-110 transition duration-300 cursor-pointer"></i>
+				<i class="px-2 fa-brands fa-square-whatsapp  fa-xl transform hover:scale-110 transition duration-300 cursor-pointer"></i>
+				<i class="px-2 fa-brands fa-square-github  fa-xl transform hover:scale-110 transition duration-300 cursor-pointer"></i>
+			</div>
+			<!-- <hr class="m-10 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> -->
+			<span class="block text-xs sm:text-center text-white">© 2024 <a href="#" class="hover:underline">Kain Tayo™</a>. All Rights Reserved.</span>
+		</div>
+	</div>
 </footer>
 
 </body>
